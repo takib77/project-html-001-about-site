@@ -1,0 +1,13 @@
+body{
+    background-color:lightslategray;
+    color: blanchedalmond;
+    font-size: large;
+}
+
+.box{
+    width: 300px;
+    background-color: mediumorchid;
+}
+header{
+    text-align: left;
+}
