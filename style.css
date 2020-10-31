@@ -39,12 +39,35 @@ li{
 
 main{
     display: flex;
-    margin: 30px;
     text-align: justify;    
 }
 
+section{
+    margin: 30px;
+}
+
+.doboz{
+    text-align: center;
+    font-style: italic;
+}
 
 .box{
-    width: 300px;
-    background-color: mediumorchid;
+    display: inline-block;
+    margin: 7px;
+    padding: 5px;
+    width: 30%;
+    background-color: gray;
+}
+
+.pic{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+#up{
+    width: 25px;
 }
