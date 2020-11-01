@@ -119,3 +119,7 @@ aside{
     background-color: darkslategray;
     max-width: 450px;
 }
+
+textarea, input{
+    margin: 5px 0px 10px;
+}
