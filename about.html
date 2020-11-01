@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-        <header>
-            EZ VAGYOK ÉN
-        </header>
-    
+    <header>
+        <ul>
         <nav id="menu">
-            <ul>
-                <img src="" alt="logo">
+                <img id="logo" src="/images/ifupecs.jpg" alt="logo">
                 <li><a href="/index.html">HOME</a></li>
                 <li><a href="/works.html">WORKS</a></li>
                 <li><a href="/gallery.html">GALLERY</a></li>
                 <li><a href="/about.html">ABOUT</a></li>
-                </ul>
+        </ul>
         </nav>
+    </header>
     
         <main>
-            <div>
+            <section>
                 <h1>BEMUTATKOZÁS</h1>
                 <p>5-10 mondat</p>
                 <img src="" alt="arckép">
-            </div>
+
+            </section>
         </main>
         <section>
 
@@ -56,17 +56,22 @@
             </i>
         </section>
         
-        <label for="name">NÉV*</label>
-        <input type="text" name="name" required minlength="5">
-        <label for="email">E-MAIL*</label>
-        <input type="email" name="email" id="email" required>
-        <label for="email">ÜZENET*</label>
-        <input type="text" name="text" id="text" required minlength="20">
-        <button type="submit">KÜLDÉS</button>
+        <div id="input">
+            <label for="name">NÉV*</label>
+            <input type="text" name="name" required minlength="5">
+            <label for="email">E-MAIL*</label>
+            <input type="email" name="email" id="email" required>
+            <label for="email">ÜZENET*</label>
+            <input type="text" name="text" id="text" required minlength="20">
+            <button type="submit">KÜLDÉS</button>
+
+        </div>
 
         <footer>
-            <button type="button">Go to the top <a href="#"></a></button>
+            <a href="#top">
+                <img id="up" src="/images/up.jpg" alt="up">
+            </a>
         </footer>
-    
+        
 </body>
 </html>
