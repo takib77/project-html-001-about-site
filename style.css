@@ -105,6 +105,16 @@ td img{
     box-shadow: 5px 10px darkgray;
 }
 
+aside{
+    position: absolute;
+    top: 1220px;
+    left: 800px;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.192);
+    padding: 2px;
+    border: brown solid 4px;
+}
+
 #input{
     background-color: darkslategray;
     max-width: 450px;
