@@ -32,7 +32,7 @@ header{
     top: 5px;
 }
 
-li{
+#list{
     list-style: none;
     padding: 5px 30px 0px 30px;
 }
@@ -90,4 +90,22 @@ article{
     border: aqua solid 2px;
     padding: 10px;
     margin-bottom: 50px;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+td img{
+    margin: 10px;
+    padding: 10px;
+    max-width: 240px;
+    border: solid 1px;
+    box-shadow: 5px 10px darkgray;
+}
+
+#input{
+    background-color: darkslategray;
+    max-width: 450px;
 }
